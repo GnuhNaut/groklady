@@ -1,7 +1,7 @@
 nav{
     min-height: 5rem;
     /* width: 100%; */
-    background-color: #000;
+    background-color: #492659;
     display: flex;
     z-index: 10;
     /* justify-content: space-between; */
@@ -41,7 +41,7 @@ nav{
     color: #fff;
 }
 .nav-links li a:hover{
-    color: #1294DE;
+    color: #DE12BD;
 }
 .nav-links li,
 .nav-links1 li {
@@ -52,7 +52,7 @@ nav{
     display: block;
     height: 2px;
     width: 0%;
-    background-color: #1294DE;
+    background-color: #DE12BD;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
@@ -65,7 +65,7 @@ nav{
 .hamburger div{
     width: 30px;
     height:3px;
-    background: #1294DE;
+    background: #DE12BD;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -76,7 +76,7 @@ nav{
 @media screen and (max-width: 800px){
     nav{
         z-index: 3;
-        background-color: #000;
+        background-color: #492659;
     }
     .hamburger{
         display:block;
@@ -90,7 +90,7 @@ nav{
     }
     .nav-links{
         position: fixed;
-        background: #000;
+        background: #492659;
         height: 60vh;
         width: 100vw;
         flex-direction: column;
