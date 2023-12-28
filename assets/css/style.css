@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron';
+    color: #fff;
+}
+main {
+    min-height: 100vh;
+    background-color: #000;
+}
+.border-btn {
+    border-image-source: linear-gradient(to bottom, #B70AA6, #6825F6) !important;
+    border: 2px solid;
+    border-image-slice: 1;
+}
+.bg-zz {
+
+    background-image: url('../imgs/bg-itemr.png');
+    background-position: center;
+    background-size: 100% 100%;
+}
+.border-dashed{
+    border: dashed !important;
+}
+.btn {
+
+    background: linear-gradient(to right, #6825F6, #B70AA6);    text-transform: uppercase;
+    border-radius: 10px;
+}
+.textp {
+    background: linear-gradient(to bottom, #6825F6, #B70AA6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bgp {
+    color: #fff;
+  background: linear-gradient(to bottom, #F72585, #7209B7);
+}
+.bgsession {
+    /* background-image: url('../imgs/bg.png'); */
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-home {
+    background-image: url('../imgs/bg-home.png');
+}
+.bg-htb {
+    background-image: url('../imgs/bg-htb.png');
+}
+.bg-roadmpa {
+    background-image: url('../imgs/bg-roadmap.png');
+}
+.bg-tokenomic {
+    background-image: url('../imgs/bg-tokenomic.png');
+}
+.htb-item {
+    background-color: rgba(255, 255, 255, 0.07);
+}
