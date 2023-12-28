@@ -6,7 +6,7 @@
 }
 main {
     min-height: 100vh;
-    background-color: #000;
+    background-color: #492659;
 }
 .border-btn {
     border-image-source: linear-gradient(to bottom, #B70AA6, #6825F6) !important;

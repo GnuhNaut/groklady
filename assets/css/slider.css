@@ -22,9 +22,13 @@
     transition: .4s all;
     /* border-radius:20px; */
 
-    background-image: url('../imgs/bg-itemr.png');
+    border-image-source: linear-gradient(to bottom, #B70AA6, #6825F6) !important;
+    border: 2px solid;
+    border-image-slice: 1;
+    /* background-image: url('../imgs/bg-itemr.png');
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
+    background-color: #000;
     color:white;
     backdrop-filter:blur(10px);
     /* border: double 1px transparent; */
